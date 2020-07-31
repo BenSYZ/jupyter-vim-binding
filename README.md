@@ -2,6 +2,20 @@ jupyter-vim-binding
 ===============================================================================
 ![Version 2.1.0](https://img.shields.io/badge/version-2.1.0-yellow.svg?style=flat-square) ![Support Jupyter 4.1 or above](https://img.shields.io/badge/support-Jupyter%204.1%20or%20above-yellowgreen.svg?style=flat-square) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE) ![Doc](https://img.shields.io/badge/doc-%3Ah%20Press%20F1%20on%20Jupyter-orange.svg?style=flat-square)
 
+For those use colemak or those want to change the default key mapping, editing the codemirror in notebook package will be an easy way. For me the codemirror is at 
+
+```
+~/.local/lib/python3.8/site-packages/notebook/static/components/codemirror/keymap/vim.js
+```
+
+Two steps,
+1. Install this extension, and change `~/.jupyter/custom/custom.js`, mapping `n` and `e`. Reason is that this extension can help you jump from cell to cell.
+2. Change the `vim.js` in the codemirror mentioned above.
+
+My example files is in [colemak](./colemak)
+
+---
+
 Do you use Vim? And you need to use [Jupyter Notebook]?
 This is a [Jupyter Notebook][] (formerly known as [IPython Notebook][]) extension to enable Vim like environment powered by [CodeMirror's Vim][].
 I'm sure that this plugin helps to improve your QOL.
