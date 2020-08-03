@@ -14,6 +14,8 @@ Two steps,
 
 My example files is in [colemak](./colemak)
 
+Thanks for Ian's [jupyterlab-vimrc](https://github.com/ianhi/jupyterlab-vimrc), it is very easy to map the keys in jupyterlab. So I'm going to use jupyterlab.
+
 ---
 
 Do you use Vim? And you need to use [Jupyter Notebook]?
